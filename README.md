@@ -1,10 +1,10 @@
 # CoxAalen-Trans-Model
-The class of CoxAalen transformation model with censored data
+The class of Cox-Aalen transformation model with censored data
 
 The transformation model (Zeng and Lin, 2006), provides a broad framework for modeling censored data. 
 However, it has a limitation in that it assumes the baseline hazards function is the same across all individuals or groups. 
 In reality, the baseline hazards can vary depending on the characteristics of the individuals or groups being studied.
-To address this limitation, we propose a class of more general transformation models that allow the baseline hazards function to depend on covariates. 
+To address this limitation, we propose a class of so-called Cox-Aalen transformation models that allow the baseline hazards function to depend on covariates. 
 By incorporating this extension, The proposed model can capture the heterogeneity in the population more accurately. 
 In addition, the proposed model includes both the transformation model and the Cox-Aalen model (Scheike and Zhang, 2002) as sepcial cases.
 We provide R code which implements an Expectation-Solving (ES) algorithm for easy computations. 
