@@ -1,4 +1,4 @@
-# CoxAalen-Trans-Model
+# The Cox-Aalen Transformation Model
 The class of Cox-Aalen transformation model with censored data
 
 The transformation model (Zeng and Lin, 2006), provides a broad framework for modeling censored data. 
