@@ -8,7 +8,7 @@ To address this limitation, we propose a class of more general transformation mo
 By incorporating this extension, The proposed model can capture the heterogeneity in the population more accurately. 
 In addition, the proposed model includes both the transformation model and the Cox-Aalen model (Scheike and Zhang, 2002) as sepcial cases.
 We provide R code which implements an Expectation-Solving (ES) algorithm for easy computations. 
-The AMP dataset contains two harmonized randomized HIV Vaccine/Prevention trials.
+The AMP dataset contains two harmonized randomized HIV Vaccine/Prevention trials (Corey et al., 2021).
 
 References:
 
